@@ -15,8 +15,7 @@ exports.sendNotificationOnWrite = functions.database
     };
 
     // Get all registered devices (replace with your token retrieval logic)
-    const tokens = 'enSWWn8KQ-OhvrHVPRUpl3:APA91bGkfLvHLUhK394IlhUr_AxmnN1DgdzF8sSEuAulUCyIe012gRRNROh3tG-Sww55Q3qr6l_-_ZyKDhL9m79wP3p7qC_EIg0SgVDd0g9RHLKvXdOvDdkUiCCOApdg6D2vmMoDB28n';
-
+   
     // Create a message object
     const message = {
       notification: notificationData,
